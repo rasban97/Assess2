@@ -1,0 +1,346 @@
+<!-- File: index.html
+Owner: Rashmi B Revanasiddaiah
+Date: 5/09/2020
+-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Events</title>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/CSSMain.css" type="text/css" media="all">
+    <link rel="stylesheet" href="CSS/CSSEvents.css" type="text/css" media="all">
+    <link rel="stylesheet" href="CSS/style-menus.css" type="text/css" media="all">
+    <link rel="stylesheet" href="CSS/style-card.css" type="text/css" media="all">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="jquery-1.10.2.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#myModal").on("show.bs.modal", function(event){
+                // Get the button that triggered the modal
+                var button = $(event.relatedTarget);
+
+                // Extract value from the custom data-* attribute
+                var titleData = button.data("title");
+                $(this).find(".modal-title").text(titleData);
+            });
+        });
+
+        $(document).ready(function(){
+            $("#myModal2").on("show.bs.modal", function(event){
+                // Get the button that triggered the modal
+                var button = $(event.relatedTarget);
+
+                // Extract value from the custom data-* attribute
+                var titleData = button.data("title");
+                $(this).find(".modal-title").text(titleData);
+            });
+        });
+
+
+        $(document).ready(function(){
+            $("#myModal3").on("show.bs.modal", function(event){
+                // Get the button that triggered the modal
+                var button = $(event.relatedTarget);
+
+                // Extract value from the custom data-* attribute
+                var titleData = button.data("title");
+                $(this).find(".modal-title").text(titleData);
+            });
+        });
+    </script>
+    <style>
+        .bs-example{
+            margin: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+<!--<div class = "container">-->
+<header class="header">
+
+    <a href = "index.html"><img class = "h q" src = "Images/DownTheAisle.png" style="width:180px; height:150px;" align = "left"></a>
+
+    <form>
+        Search <input type="text" name = "search">
+    </form>
+    <section class="navigation">
+        <nav id="social-menu" class="social-menu menu" role="navigation">
+            <ul>
+                <li><a href="http://twitter.com"></a></li>
+                <li><a href="http://facebook.com"></a></li>
+                <li><a href="http://youtube.com"></a></li>
+                <li><a href="http://instagram.com"></a></li>
+                <li><a href="http://pinterest.com"></a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<section class="navigation">
+
+    <nav id="single-nav" class="single-nav menu" role="navigation">
+
+        <ul>
+
+
+            <li>
+                <a class="active" href="index.html">Events and Celebrations</a>
+            </li>
+            <li>
+                <a href="About Us.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="Booking.html">Booking</a>
+            </li>
+
+            <li>
+                <a href="Login.html">Login</a>
+            </li>
+
+
+        </ul>
+    </nav>
+
+
+
+</section><!-- .menu-section -->
+<!--</div>-->
+<!--<div class = "container">-->
+
+<div class="content">
+
+    <main class="main-area">
+        <div class="about-image" style="background-image: url(Images/E2.jpg);">
+            <div class="about-text">
+                <h1 style="font-family:'Lucida Calligraphy', cursive ; font-size:60px; color: ghostwhite;" ><b>Welcome to <br> Down The Aisle</b></h1>
+            </div>
+        </div>
+        <article class="main">
+            <br>
+            <br>
+                <h3 style="font-family: 'Arial' ; font-size:20px;" align="center">
+                    <small><b>Creating Bespoke Weddings Planned To Perfection !!!</b>
+                        <br>
+                        <br>
+                        <p align="justify">
+                        Down The Aisle is a full-service design and wedding planning service based in beautiful Nelson, New Zealand.
+                        We specialize in unique weddings and exquisite events throughout New Zealand or in any dream destination.
+                        Inspired by your personal style and goals, every wedding is executed with efficient planning and the greatest
+                        attention to detail. We work tirelessly to design and execute the most memorable day of your life
+                        </p>
+                    </small>
+                </h3>
+
+
+
+            <br>
+            <br>
+            <br>
+            <section class="cards">
+                <article class="card">
+                    <a href = "#">
+                        <figure class = "thumbnail">
+                            <img src = "Images/Wed1.jpg" style="width:400px; height:200px;"></a>
+                    <p align="center" style="font-size: 20px"><b>DownTheAisle Weddings</b></p>
+
+                            <div class="bs-example">
+
+                                <!-- Button HTML (to Trigger Modal) -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-title="DownTheAisle Weddings" style="background-color: darkred; border: none;">More Info</button>
+
+                                <div id="myModal" class="modal fade" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <div class="modal-header">
+                                                <h6 class="modal-title"><b>DownTheAisle Weddings</b></h6>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p style="margin: 35px;">
+                                                    <b>You deserve the best for your special day...</b>
+                                                    <br />
+                                                    <br />
+                                                    Our DownTheAisle wedding packages include everything from start to finish, from a photographer, to a make-up artist, and celebrant. Plus, Down The Aisle turns wedding days into holidays with our all-inclusive package, featuring gourmet meals, an open bar, with sports and activities included.
+                                                    <br />
+                                                    <br />
+                                                    Our trusted wedding partners around the world have local expertise and contacts to <b>turn your dream wedding into a reality!</b>
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </figure>
+
+                    </a>
+                </article>
+
+
+                <article class="card">
+                    <a href = "#">
+                        <figure class = "thumbnail">
+                            <img src = "Images/Dest1.jpg" style="width:400px; height:200px;"></a>
+                            <p align="center" style="font-size: 20px"><b>Destination Weddings</b></p>
+
+                            <div class="bs-example">
+
+                                <!-- Button HTML (to Trigger Modal) -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3" data-title="Destination Weddings" style="background-color: darkred; border: none;">More Info</button>
+
+                                <div id="myModal3" class="modal fade" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <div class="modal-header">
+                                                <h6 class="modal-title"><b>Destination Weddings</b></h6>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p style="margin: 35px;">
+                                                    <b>Have the destination wedding you've always dreamed of...</b>
+                                                    <br />
+                                                    <br />
+                                                    Dreaming of a wedding on the shores of the Maldives, or in an Ice Chapel in Japan’s snow fields? Here at Down the Aisle, we cater for the best and most beautiful locations in the world, from the Indian Ocean to Asia and the Americas.
+                                                    <br />
+                                                    <br />
+                                                    Crystal blue waters, white-sand beaches, and breathtaking views - <b>book your wedding package today!</b>
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </figure>
+                    </a>
+                </article>
+
+
+                <article class="card">
+                    <a href = "#">
+                        <figure class = "thumbnail">
+                            <img src = "Images/Reception.jpg" style="width:400px; height:200px;"></a>
+                            <!--<p><a href= title= "MahanaVineyard.html">Visit our Mahana Vineyard page</a></p>-->
+                            <p align="center" style="font-size: 20px"><b>Milestone Celebrations</b></p>
+                            <div class="bs-example">
+
+                                <!-- Button HTML (to Trigger Modal) -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2" data-title="Milestone Celebrations" style="background-color: darkred; border: none;">More Info</button>
+
+                                <div id="myModal2" class="modal fade" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <div class="modal-header">
+                                                <h6 class="modal-title"><b>Milestone Celebrations</b></h6>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p style="margin: 35px;">
+                                                    <b>Full Event Planning, Design & Styling...</b>
+                                                    <br />
+                                                    <br />
+                                                    Down The Aisle plans and designs parties, events, celebrations, accomplishments and life’s milestones. We love to throw a good party and would be ecstatic to plan and design your event.
+                                                    <br />
+                                                    <br />
+                                                    Engagements, receptions, anniversary parties, bridal & baby showers – <b>any excuse for a party!</b>
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </figure>
+
+                    </a>
+                </article>
+
+
+
+            </section><!--end of first cards section-->
+            <p align="center">
+                <a href = "Booking.html"><button class="button button" align="center">Book Now</button></a>
+            </p>
+
+
+        </article><!--Close main aricle-->
+
+
+
+    </main>
+
+</div>
+
+<!--</div>-->
+
+
+<!--<div class = "container">-->
+<footer class="footer">
+    <section class="footer-align">
+        <p> <h5 style="color: #E8E8E8;"><b>CONTACT US</b></h5>
+        <br>
+        <i class='fas fa-map-marker-alt' style="color: #E8E8E8;"> &nbsp 10 Weka Street, Nelson 7010, New Zealand</i>
+
+        <br>
+        <i class='fas fa-phone-volume' style="color: #E8E8E8"> &nbsp  0800123456</i>
+        <br>
+        <i class='far fa-envelope' style="color: #E8E8E8"> &nbsp  info@downtheaisle.co.nz</i>
+        </p>
+
+    </section>
+
+    <section class="navigation">
+        <nav id="social-menu" class="social-menu menu" role="navigation">
+            <ul>
+                <li><a href="http://twitter.com"></a></li>
+                <li><a href="http://facebook.com"></a></li>
+                <li><a href="http://youtube.com"></a></li>
+                <li><a href="http://instagram.com"></a></li>
+                <li><a href="http://pinterest.com"></a></li>
+            </ul>
+        </nav>
+    </section>
+    <p style="color: #E8E8E8;">Copyright &#169; Down The Aisle. All Rights Reserved
+        <br>
+
+    </p>
+</footer>
+
+<!--</div>-->
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

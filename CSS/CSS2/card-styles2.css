@@ -1,0 +1,162 @@
+/* Card Based Layout - Base styles */
+
+body {
+	background: hsl(0, 0%, 90%);
+}
+
+.masthead {
+	background: hsl(0, 0%, 20%);`
+}
+
+.site-title {
+	color: white;
+}
+
+.card {
+	background: #F5F5F5;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+/* For smaller cards like the about Us page */
+
+.card2 {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card2 a {
+	color: black;
+	text-decoration: none;
+}
+
+.card2 a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.card-content p {
+	font-size: 95%;
+}
+
+/*Step 5*/
+@media screen and (min-width:40em){
+	/*step1 */
+	.cards{
+		display: flex;
+		justify-content: space-between;
+		/*step 2*/
+		flex-wrap: wrap;
+		/*step 10 */
+		margin-top:1em;
+		
+	}
+	
+	/*step 3*/
+	.card{
+		/*step 12 */
+		display: flex;
+		/*flex grow, shrink, basis
+		flex:0 1 33%;*/
+		/*step 4 */
+		flex: 0 1 calc(33% - .5em); /*step 8 - change to 50%*/
+									/* step 9 change the spacing to .5 em from 1 em */
+		/*step 10*/
+		margin - top: 1 em;
+		
+	}
+
+/* For Breakfast and pudding cards */
+	/*step1 */
+	.cards2{
+		display: flex;
+		justify-content: space-between;
+		/*step 2*/
+		flex-wrap: wrap;
+		/*step 10 */
+		margin-top:1em;
+	}
+	
+	/*step 3*/
+	.card2{
+		/*step 12 */
+		display: flex;
+		/*flex grow, shrink, basis
+		flex:0 1 33%;*/
+		/*step 4 */
+		flex: 0 1 calc(25% - .5em); /*step 8 - change to 50%*/
+									/* step 9 change the spacing to .5 em from 1 em */
+		/*step 10*/
+		margin - top: 1 em;
+		
+	}
+
+}
+
+/* step 6 - add media query for large screens */
+@media screen and (min-width: 60em){
+	
+	.cards {
+		/*step 11*/
+		margin-top: inherit;
+	}
+
+	.card {
+	/* step 7 */
+	flex: 0 1 calc(33% - 1em);
+	/* step 11 */
+	margin-bottom: 2em;
+	}
+
+/* For breakfast and pudding */
+	.cards2 {
+		/*step 11*/
+		margin-top: inherit;
+	}
+
+	.card2 {
+	/* step 7 */
+	flex: 0 1 calc(25% - 1em);
+	/* step 11 */
+	margin-bottom: 2em;
+	}
+}
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,110 @@
+
+   .about-image {
+      
+      background-color: #cccccc;
+      height: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      opacity: 0.5;
+    }
+    
+    .about-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+  
+/* Style inputs, select elements and textareas */
+input[type=text],input[type=number],input[type=date],input[type=email],input[type=password],input[type=tel],select,textarea{
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+   
+}
+/*
+.newsearch{
+  width: 20px;
+}*/
+
+/* Style the container */
+.FormContainer {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.FormCol-15 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.FormCol-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.FormCol-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.FormCol-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+.FormRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .FormCol-25, .FormCol-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    
+    
+    

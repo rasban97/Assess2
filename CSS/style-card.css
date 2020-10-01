@@ -1,0 +1,12 @@
+/*
+The primary stylesheet for the Flexbox Cards Demo web page. This sheet pulls in all the components in order of appearance.
+*/
+
+@import url('CSS2/reset.css');
+@import url('CSS2/accessibility.css');
+@import url('CSS2/layout.css');
+@import url('CSS2/typography.css');
+@import url('CSS2/masthead.css');
+@import url('CSS2/card-styles.css');
+@import url('CSS2/card-styles2.css');
+@import url('CSS2/card-styles3.css');

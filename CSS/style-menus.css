@@ -1,0 +1,16 @@
+/*
+The primary stylesheet for Flexbox Menu Demo web page. This sheet pulls in all the components in order of appearance.
+*/
+
+@import url('CSS2/reset.css');
+@import url('CSS2/accessibility.css');
+@import url('CSS2/layout.css');
+@import url('CSS2/typography.css');
+@import url('CSS2/masthead.css');
+@import url('CSS2/nav-base.css');
+@import url('CSS2/nav-single-level.css');
+@import url('CSS2/nav-advanced.css');
+@import url('CSS2/nav-multi-level.css');
+@import url('CSS2/nav-mixed.css');
+@import url('CSS2/nav-social.css');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
